@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{C539DC25-CE84-F2A8-64E9-A168CC830DAF}") = "PeriodicTable 2.0", "Assembly-CSharp.csproj", "{8E58561F-A64E-80B0-F03D-7C32CF34C089}"
+EndProject
+Project("{C539DC25-CE84-F2A8-64E9-A168CC830DAF}") = "PeriodicTable 2.0", "Assembly-CSharp-Editor.csproj", "{70EEB1B0-883A-6BCB-4B94-80DB39DF7687}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E58561F-A64E-80B0-F03D-7C32CF34C089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E58561F-A64E-80B0-F03D-7C32CF34C089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E58561F-A64E-80B0-F03D-7C32CF34C089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E58561F-A64E-80B0-F03D-7C32CF34C089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70EEB1B0-883A-6BCB-4B94-80DB39DF7687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70EEB1B0-883A-6BCB-4B94-80DB39DF7687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70EEB1B0-883A-6BCB-4B94-80DB39DF7687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70EEB1B0-883A-6BCB-4B94-80DB39DF7687}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
