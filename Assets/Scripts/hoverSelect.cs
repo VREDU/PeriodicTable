@@ -15,4 +15,8 @@ public class hoverSelect : MonoBehaviour {
 	public void loadHelium(){
 		SceneManager.LoadScene (4);
 	}
+
+	public void loadNitrogen(){
+		SceneManager.LoadScene (5);
+	}
 }
