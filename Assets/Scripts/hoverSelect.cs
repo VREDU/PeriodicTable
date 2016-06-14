@@ -19,4 +19,16 @@ public class hoverSelect : MonoBehaviour {
 	public void loadNitrogen(){
 		SceneManager.LoadScene (5);
 	}
+
+	public void loadOxygen(){
+		SceneManager.LoadScene (6);
+	}
+
+	public void loadFluorine(){
+		SceneManager.LoadScene (7);
+	}
+
+	public void loadNeon(){
+		SceneManager.LoadScene (8);
+	}
 }
