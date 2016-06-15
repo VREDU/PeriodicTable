@@ -9,30 +9,34 @@ public class hoverSelect : MonoBehaviour {
 	}
 
 	public void loadHydrogen(){
-		SceneManager.LoadScene (3);
+		SceneManager.LoadScene (2);
 	}
 
 	public void loadHelium(){
-		SceneManager.LoadScene (4);
+		SceneManager.LoadScene (3);
 	}
 
 	public void loadNitrogen(){
-		SceneManager.LoadScene (5);
+		SceneManager.LoadScene (4);
 	}
 
 	public void loadOxygen(){
-		SceneManager.LoadScene (6);
+		SceneManager.LoadScene (5);
 	}
 
 	public void loadFluorine(){
-		SceneManager.LoadScene (7);
+		SceneManager.LoadScene (6);
 	}
 
 	public void loadNeon(){
-		SceneManager.LoadScene (8);
+		SceneManager.LoadScene (7);
 	}
 
 	public void loadLithium(){
-		SceneManager.LoadScene (9);
+		SceneManager.LoadScene (8);
+	}
+
+	public void loadHome(){
+		SceneManager.LoadScene (0);
 	}
 }
