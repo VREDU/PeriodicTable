@@ -12,6 +12,10 @@ public class hoverSelect : MonoBehaviour {
 		SceneManager.LoadScene (2);
 	}
 
+	public void loadBeryllium(){
+		SceneManager.LoadScene (9);
+	}
+
 	public void loadHelium(){
 		SceneManager.LoadScene (3);
 	}
@@ -34,6 +38,10 @@ public class hoverSelect : MonoBehaviour {
 
 	public void loadLithium(){
 		SceneManager.LoadScene (8);
+	}
+
+	public void loadCarbon(){
+		SceneManager.LoadScene (10);
 	}
 
 	public void loadHome(){
