@@ -31,4 +31,8 @@ public class hoverSelect : MonoBehaviour {
 	public void loadNeon(){
 		SceneManager.LoadScene (8);
 	}
+
+	public void loadLithium(){
+		SceneManager.LoadScene (9);
+	}
 }
