@@ -47,4 +47,8 @@ public class hoverSelect : MonoBehaviour {
 	public void loadHome(){
 		SceneManager.LoadScene (0);
 	}
+
+	public void loadHydrogenDiatomic(){
+		SceneManager.LoadScene (1);
+	}
 }
