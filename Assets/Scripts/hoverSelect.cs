@@ -51,4 +51,16 @@ public class hoverSelect : MonoBehaviour {
 	public void loadHydrogenDiatomic(){
 		SceneManager.LoadScene (1);
 	}
+
+	public void loadFlourineDiatomic(){
+		SceneManager.LoadScene (11);
+	}
+
+	public void loadOxygenDiatomic(){
+		SceneManager.LoadScene (12);
+	}
+
+	public void loadNitrogenDiatomic(){
+		SceneManager.LoadScene (13);
+	}
 }
