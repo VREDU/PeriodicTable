@@ -12,8 +12,8 @@ public class periodManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		GetComponent<Renderer> ().material.color = Color.white;
-		if (SaveLoad.saveLoad.getCurrentLevel() <= levelNumber) {
+		/*if (SaveLoad.saveLoad.getCurrentLevel() <= levelNumber) {
 			GetComponent<Renderer> ().material.color = Color.white;
-		}
+		}*/
 	}
 }

@@ -40,7 +40,7 @@ public class canvasManager : MonoBehaviour {
 	}
 
 	//if won go to next level else try again
-	public void nextSteps() {
+	/*public void nextSteps() {
 		if (compoundsFormed >= compoundGoal) {
 			SceneManager.LoadScene ((SceneManager.GetActiveScene().buildIndex+1)%3);
 			if (SaveLoad.saveLoad.getCurrentLevel () <= SceneManager.GetActiveScene ().buildIndex) {
@@ -50,7 +50,7 @@ public class canvasManager : MonoBehaviour {
 		} else {
 			SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
 		}
-	}
+	}*/
 
 	public int getCompoundGoal() {
 		return compoundGoal;
