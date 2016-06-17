@@ -83,8 +83,6 @@
      <Compile Include="Assets\Scripts\elementManager.cs" />
      <Compile Include="Assets\Scripts\gazeMovementManager.cs" />
      <Compile Include="Assets\Scripts\hoverSelect.cs" />
-     <Compile Include="Assets\Scripts\periodManager.cs" />
-     <Compile Include="Assets\Scripts\periodSelector.cs" />
      <Compile Include="Assets\Scripts\rayCastManager.cs" />
      <Compile Include="Assets\Scripts\scoreManager.cs" />
      <Compile Include="Assets\Scripts\shooterManager.cs" />
