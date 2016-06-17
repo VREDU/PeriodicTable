@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class atomManager : MonoBehaviour {
+	//this class makes the random movement for background atoms and has variables to see if atom should form a compound
 
 	public bool background, diatomic;
 	public int atomicNumber;

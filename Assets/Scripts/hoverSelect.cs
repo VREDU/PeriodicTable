@@ -8,59 +8,59 @@ public class hoverSelect : MonoBehaviour {
 		GetComponent<Renderer> ().material.color = gazedAt ? Color.green : Color.white;
 	}
 
-	public void loadHydrogen(){
-		SceneManager.LoadScene (2);
+	public void loadHome(){
+		SceneManager.LoadScene (0);
 	}
 
-	public void loadBeryllium(){
-		SceneManager.LoadScene (9);
+	public void loadHydrogen(){
+		SceneManager.LoadScene (1);
+	}
+
+	public void loadHydrogenDiatomic(){
+		SceneManager.LoadScene (2);
 	}
 
 	public void loadHelium(){
 		SceneManager.LoadScene (3);
 	}
 
-	public void loadNitrogen(){
+	public void loadLithium(){
 		SceneManager.LoadScene (4);
 	}
 
-	public void loadOxygen(){
+	public void loadBeryllium(){
 		SceneManager.LoadScene (5);
 	}
 
-	public void loadFluorine(){
+	public void loadCarbon(){
 		SceneManager.LoadScene (6);
 	}
 
-	public void loadNeon(){
+	public void loadNitrogen(){
 		SceneManager.LoadScene (7);
 	}
 
-	public void loadLithium(){
+	public void loadNitrogenDiatomic(){
 		SceneManager.LoadScene (8);
 	}
 
-	public void loadCarbon(){
-		SceneManager.LoadScene (10);
-	}
-
-	public void loadHome(){
-		SceneManager.LoadScene (0);
-	}
-
-	public void loadHydrogenDiatomic(){
-		SceneManager.LoadScene (1);
-	}
-
-	public void loadFlourineDiatomic(){
-		SceneManager.LoadScene (11);
+	public void loadOxygen(){
+		SceneManager.LoadScene (9);
 	}
 
 	public void loadOxygenDiatomic(){
+		SceneManager.LoadScene (10);
+	}
+
+	public void loadFluorine(){
+		SceneManager.LoadScene (11);
+	}
+
+	public void loadFlourineDiatomic(){
 		SceneManager.LoadScene (12);
 	}
 
-	public void loadNitrogenDiatomic(){
+	public void loadNeon(){
 		SceneManager.LoadScene (13);
 	}
 }
