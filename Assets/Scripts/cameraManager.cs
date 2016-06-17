@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class cameraManager : MonoBehaviour {
-
+	//This class is to control the camera when making game footage
 	// Use this for initialization
 	void Start () {
 	
