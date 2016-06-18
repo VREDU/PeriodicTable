@@ -83,8 +83,8 @@
      <Compile Include="Assets\Scripts\elementManager.cs" />
      <Compile Include="Assets\Scripts\gazeMovementManager.cs" />
      <Compile Include="Assets\Scripts\hoverSelect.cs" />
+     <Compile Include="Assets\Scripts\moleculesFormedText.cs" />
      <Compile Include="Assets\Scripts\rayCastManager.cs" />
-     <Compile Include="Assets\Scripts\scoreManager.cs" />
      <Compile Include="Assets\Scripts\shooterManager.cs" />
      <Compile Include="Assets\Scripts\shotsLeftText.cs" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
