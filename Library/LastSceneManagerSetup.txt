@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Hydrogen Diatomic.unity
+- path: Assets/Scenes/Lithium.unity
   isLoaded: 1
   isActive: 1
