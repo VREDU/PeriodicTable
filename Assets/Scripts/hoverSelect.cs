@@ -8,6 +8,10 @@ public class hoverSelect : MonoBehaviour {
 		GetComponent<Renderer> ().material.color = gazedAt ? Color.green : Color.white;
 	}
 
+	public void hoverGreen(bool gazedAt) {
+		GetComponent<Renderer> ().material.color = gazedAt ? Color.green : Color.white;
+	}
+
 	public void loadHome(){
 		SceneManager.LoadScene (0);
 	}

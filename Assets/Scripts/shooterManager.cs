@@ -10,7 +10,7 @@ public class shooterManager : MonoBehaviour {
 	private elementManager parentElementManager;
 
 	void Start () {
-		fired = false; //atom should move with gaze
+		fired = false; 
 		step = gazeSpeed * Time.deltaTime;
 		fireSpeed = 10;
 		shooter = true;
@@ -34,7 +34,7 @@ public class shooterManager : MonoBehaviour {
 			shooter = false;
 		}
 
-		//if it is another hydrogen atom that it is not a compound connect the atoms and add a random force
+		//if it is another diatomic atom that it is not a compound connect the atoms and add a random force
 		if (c.rigidbody != null && gameObject.GetComponent<atomManager>().isDiatomic() && c.gameObject.GetComponent<atomManager>().isDiatomic() && !gameObject.GetComponent<atomManager> ().isCompound() && !c.gameObject.GetComponent<atomManager>().isCompound() && gameObject.GetComponent<atomManager>().getAtomicNumber()== c.gameObject.GetComponent<atomManager>().getAtomicNumber()) {
 			var joint = gameObject.AddComponent<FixedJoint> ();
 			joint.connectedBody = c.rigidbody;
