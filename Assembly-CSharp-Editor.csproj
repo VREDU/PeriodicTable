@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{70EEB1B0-883A-6BCB-4B94-80DB39DF7687}</ProjectGuid>
+    <ProjectGuid>{614D344F-834A-3A9D-DC3A-CD8FEE766803}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -57,6 +57,7 @@
      <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Text\Text Shader.shader" />
+     <None Include="Assets\LICENSE.txt" />
      <None Include="Assets\Cardboard\Resources\UI\CardboardReticleShader.shader" />
      <None Include="Assets\Store Assets\MentalDreamsAssets\SkyboxPack\ReadMe!.txt" />
      <None Include="Assets\Cardboard\Resources\SolidColor.shader" />
@@ -96,7 +97,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{8E58561F-A64E-80B0-F03D-7C32CF34C089}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{920A7C76-BB52-19E2-B378-6A69B2C44F72}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

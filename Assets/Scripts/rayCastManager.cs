@@ -29,6 +29,7 @@ public class rayCastManager : MonoBehaviour {
 	}
 
 	void Update () {
+		Cursor.visible = false;
 		RaycastHit hit;
 		if (Physics.Raycast (transform.position, transform.forward, out hit, 200f, layerMask)) {
 			hitPoint = hit.point;
