@@ -19,13 +19,18 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class hoverSelect : MonoBehaviour {
 
 	public GameObject atomicStructure;
 	public static GameObject active;
+	public string elementName;
+	public GameObject Instructions;
+	private TextMesh gameText;
 
 	void Start() {
+		gameText = Instructions.GetComponent<TextMesh> ();
 	}
 	
 	public void nextStepsHover(bool gazedAt) {
@@ -43,6 +48,7 @@ public class hoverSelect : MonoBehaviour {
 		}
 		active = atomicStructure;
 		active.SetActive (true);
+		gameText.text = elementName;
 	}
 
 	public void loadHome(){
