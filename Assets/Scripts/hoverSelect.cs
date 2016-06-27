@@ -21,6 +21,12 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class hoverSelect : MonoBehaviour {
+
+	public GameObject atomicStructure;
+	public static GameObject active;
+
+	void Start() {
+	}
 	
 	public void nextStepsHover(bool gazedAt) {
 		GetComponent<Renderer> ().material.color = gazedAt ? Color.green : Color.white;
@@ -28,6 +34,15 @@ public class hoverSelect : MonoBehaviour {
 
 	public void hoverGreen(bool gazedAt) {
 		GetComponent<Renderer> ().material.color = gazedAt ? Color.green : Color.white;
+	}
+
+
+	public void clickElement() {
+		if (active != null) {
+			active.SetActive (false);
+		}
+		active = atomicStructure;
+		active.SetActive (true);
 	}
 
 	public void loadHome(){
