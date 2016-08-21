@@ -117,3 +117,4 @@
 /Users/martinmarkenson/Desktop/Code/PeriodicTable 2.0/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/martinmarkenson/Desktop/Code/PeriodicTable 2.0/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/martinmarkenson/Desktop/Code/PeriodicTable 2.0/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/martinmarkenson/Desktop/Code/PeriodicTable/Temp/bin/Debug/Google.ProtocolBuffers.dll

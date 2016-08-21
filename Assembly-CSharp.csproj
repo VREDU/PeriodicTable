@@ -45,36 +45,48 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Cardboard\DemoScene\FPS.cs" />
-     <Compile Include="Assets\Cardboard\DemoScene\Teleport.cs" />
-     <Compile Include="Assets\Cardboard\Legacy\DemoScene\TeleportLegacyUI.cs" />
-     <Compile Include="Assets\Cardboard\Legacy\Scripts\CardboardOnGUI.cs" />
-     <Compile Include="Assets\Cardboard\Legacy\Scripts\CardboardOnGUIMouse.cs" />
-     <Compile Include="Assets\Cardboard\Legacy\Scripts\CardboardOnGUIWindow.cs" />
-     <Compile Include="Assets\Cardboard\Legacy\Scripts\SkyboxMesh.cs" />
-     <Compile Include="Assets\Cardboard\Legacy\Scripts\StereoLensFlare.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\Audio\CardboardAudio.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\Audio\CardboardAudioListener.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\Audio\CardboardAudioRoom.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\Audio\CardboardAudioSource.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\Cardboard.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardEye.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardHead.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardPostRender.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardPreRender.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardProfile.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\GazeInputModule.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\Pose3D.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\StereoController.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\StereoRenderEffect.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\UI\CardboardReticle.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\UI\ICardboardPointer.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\VRDevices\BaseAndroidDevice.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\VRDevices\BaseCardboardDevice.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\VRDevices\BaseVRDevice.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardAndroidDevice.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
+     <Compile Include="Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDebugInfo.cs" />
+     <Compile Include="Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDemoManager.cs" />
+     <Compile Include="Assets\GoogleVR\DemoScenes\HeadsetDemo\FPS.cs" />
+     <Compile Include="Assets\GoogleVR\DemoScenes\HeadsetDemo\Teleport.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrHead.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrCameraUtils.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrEye.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrPostRender.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrPreRender.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrProfile.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\StereoController.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\StereoRenderEffect.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\AndroidDevice.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\BaseAndroidDevice.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\BaseVRDevice.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\EditorDevice.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\GvrDevice.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\iOSDevice.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudio.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioListener.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioRoom.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioSoundfield.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioSource.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrController.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviderFactory.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\AndroidNativeControllerProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\DummyControllerProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\EmulatorControllerProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerState.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorClientSocket.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorConfig.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorDataTypes.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorManager.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\PhoneEvent.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\IControllerProvider.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\GazeInputModule.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\GvrViewer.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Pose3D.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\UI\GvrGaze.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\UI\GvrReticle.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\UI\IGvrGazePointer.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\UI\IGvrGazeResponder.cs" />
      <Compile Include="Assets\Scripts\atomManager.cs" />
      <Compile Include="Assets\Scripts\boundaryManager.cs" />
      <Compile Include="Assets\Scripts\cameraManager.cs" />
@@ -87,20 +99,24 @@
      <Compile Include="Assets\Scripts\rayCastManager.cs" />
      <Compile Include="Assets\Scripts\shooterManager.cs" />
      <Compile Include="Assets\Scripts\shotsLeftText.cs" />
-     <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
-     <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
-     <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
+     <Compile Include="Assets\atomQuantity.cs" />
+     <Compile Include="Assets\idealGasManager.cs" />
+     <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
+     <None Include="Assets\GoogleVR\Legacy\Resources\UnlitTexture.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Text\Text Shader.shader" />
      <None Include="Assets\LICENSE.txt" />
-     <None Include="Assets\Cardboard\Resources\UI\CardboardReticleShader.shader" />
+     <None Include="Assets\GoogleVR\Resources\UI\GvrReticleShader.shader" />
      <None Include="Assets\Store Assets\MentalDreamsAssets\SkyboxPack\ReadMe!.txt" />
-     <None Include="Assets\Cardboard\Resources\SolidColor.shader" />
+     <None Include="Assets\GoogleVR\Legacy\Resources\SolidColor.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.ProtocolBuffers">
+ <HintPath>/Users/martinmarkenson/Desktop/Code/PeriodicTable/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
