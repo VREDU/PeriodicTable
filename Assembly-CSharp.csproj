@@ -99,6 +99,7 @@
      <Compile Include="Assets\Scripts\rayCastManager.cs" />
      <Compile Include="Assets\Scripts\shooterManager.cs" />
      <Compile Include="Assets\Scripts\shotsLeftText.cs" />
+     <Compile Include="Assets\atomChanger.cs" />
      <Compile Include="Assets\atomQuantity.cs" />
      <Compile Include="Assets\idealGasManager.cs" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />

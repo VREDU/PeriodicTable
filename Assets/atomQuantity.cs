@@ -3,18 +3,29 @@ using System.Collections;
 
 public class atomQuantity : MonoBehaviour {
 	public GameObject atom;
+	public Object[] atomArray;
 	public Transform spawnPoint;
+	public int i;
 	// Use this for initialization
 	void Start () {
-	
+		i = 5;
 	}
-	
-	// Update is called once per frame
 	void Update () {
-	
+		//Debug.Log (i);
 	}
 
 	public void AddAtoms() {
-		Instantiate (atom, spawnPoint.position, spawnPoint.rotation);
+		Debug.Log (i);
+		if (i < 10) {
+			i++;
+			atomArray [i] = Instantiate (atom, spawnPoint.position, spawnPoint.rotation);
+		}
+	}
+
+	public void destroyAtoms(){
+		if (i >= 0) {
+			Destroy (atomArray [i]);
+			i--;
+		}
 	}
 }
