@@ -1,3 +1,3 @@
 # PeriodicTable
 An explorable virtual reality periodic table
-http://makeagif.com/i/lK4MKc
+![Loading Periodic Table animation...](http://makeagif.com/i/lK4MKc)
