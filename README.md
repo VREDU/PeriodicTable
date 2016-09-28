@@ -1,5 +1,5 @@
 # PeriodicTable
-An application for google cardboard for students to explore the periodic table in virtual reality.
+An application for google cardboard allowing students to explore the periodic table in virtual reality.
 
 ![lK4MKc](http://i.makeagif.com/media/9-28-2016/lK4MKc.gif)
 
