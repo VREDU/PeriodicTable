@@ -5,8 +5,6 @@ An application for google cardboard allowing students to explore the periodic ta
 
 The app is available to download on the google play store here: https://play.google.com/store/apps/details?id=com.eduvrse.ProductName&hl=en
 
-Students can use the [Crystal Structure Lab](https://github.com/martymarkenson/PeriodicTable/blob/master/Crystal%20Structure%20Lab.md) to recieve additional insight into the crystal structures shown in the application
-
 Below is a worksheet which can be used with the app to gain additional insight. 
 
 **Introduction:**
