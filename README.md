@@ -3,6 +3,8 @@ An application for google cardboard allowing students to explore the periodic ta
 
 ![MzT0He](http://i.makeagif.com/media/9-28-2016/MzT0He.gif)
 
+[Youtube Link](https://www.youtube.com/watch?v=zmzdgXg2zzM)
+
 The app is available to download on the google play store here: https://play.google.com/store/apps/details?id=com.eduvrse.ProductName&hl=en
 
 Below is a worksheet which can be used with the app to gain additional insight. 
